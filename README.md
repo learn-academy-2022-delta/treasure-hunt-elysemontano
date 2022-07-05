@@ -32,6 +32,15 @@
     (done)
 
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
+    - Branch: treasure-bomb
+    - Setup componentDidMount to randomize a treasure location and set to state
+    - Checked if index is treasurelocation in handleGamePlay
+      - If so, emoji is updated to treasure
+      - else, emoji is set to tree
+    - Repeated process to account for bombLocation
+    (done)
+
+
 - As a user, I can click on a “Play Again” button that will restart the game.
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at 5 and decrements one every time I click on a square that is not the treasure nor the bomb.
 - As a user, I can see a message informing me that I won the game if I select the square that contains the treasure.
