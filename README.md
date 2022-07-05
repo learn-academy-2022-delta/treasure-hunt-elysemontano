@@ -6,6 +6,17 @@
 
 ### 📚 User Stories
 - As a user, I can see a page with a 3 by 3 grid board game with a question mark in each square.
+    Branch: grid
+    Added an empty div to Square component
+      Styled in css to have a height, width, border
+      imported and called component in App.js
+    Mapped over board array in state to display Square component for each iteration
+    Added styling on a div that surrounds our mapped squares
+      Used flex and wrap, along with setting width.
+      Centered both gameboard and header
+    Passed the value of board to our square component to show question mark
+    Styled question mark to be larger and centered
+
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
